@@ -15,15 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{700CBA46
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Based", "Based", "{232FE246-0A9C-4F04-AE11-FCF677BE30DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.Foundation", "Ncore.Foundation\Ncore.Foundation.csproj", "{7CF47F9A-A01F-4C9F-9C65-6267384C956E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.Foundation", "Ncore.Foundation\Ncore.Foundation.csproj", "{7CF47F9A-A01F-4C9F-9C65-6267384C956E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.Data", "Ncore.Data\Ncore.Data.csproj", "{70B0141F-898C-4527-9807-C78DA70C6F0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.Data", "Ncore.Data\Ncore.Data.csproj", "{70B0141F-898C-4527-9807-C78DA70C6F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.DBGen", "Ncore.DBGen\Ncore.DBGen.csproj", "{83F228A5-B182-444D-B8C1-1F2D26E1A586}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Material", "Material", "{90850D36-E62C-4CFD-A2CF-F07150BE61D8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extends", "Extends", "{D5841DD4-D2BB-470B-8119-3523C7EA93C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.DBGen", "Ncore.DBGen\Ncore.DBGen.csproj", "{83F228A5-B182-444D-B8C1-1F2D26E1A586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
