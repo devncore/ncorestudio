@@ -1,5 +1,5 @@
-﻿using Ncore.Main.Local.ViewModels;
-using System.Windows;
+﻿using System.Windows;
+using Ncore.Main.Local.ViewModels;
 
 namespace Ncore.Main.UI.Views
 {
