@@ -5,14 +5,9 @@ namespace NcoreStudio
 	class Startup
 	{
 		[STAThread]
-		public static void Main(string[] args)
+		public static void Main()
 		{
-			new App().Run();
-		}
-
-		public void Test()
-		{
-			//  
+			_ = new App().Run();
 		}
 	}
 }

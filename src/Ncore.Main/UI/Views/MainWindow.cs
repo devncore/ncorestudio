@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using Ncore.Main.Local.ViewModels;
-
 namespace Ncore.Main.UI.Views
 {
 	public class MainWindow : Window
