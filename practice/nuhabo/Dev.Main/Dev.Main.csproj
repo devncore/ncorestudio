@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Themes\Units\" />
-    <Folder Include="UI\Units\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Dev.Data\Dev.Data.csproj" />
+    <ProjectReference Include="..\Dev.DBGen\Dev.DBGen.csproj" />
     <ProjectReference Include="..\Dev.Foundation\Dev.Foundation.csproj" />
   </ItemGroup>
 

@@ -1,5 +1,3 @@
-using System;
-
 namespace Dev.Data.Menus
 {
     public class MenuModel
