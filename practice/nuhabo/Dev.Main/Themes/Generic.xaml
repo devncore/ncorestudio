@@ -4,7 +4,7 @@
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/Dev.Main;component/Themes/Units/MainMenuItem.xaml"/>
-        <ResourceDictionary Source="/Dev.Main;component/Themes/Units/MAinMenu.xaml"/>
+        <ResourceDictionary Source="/Dev.Main;component/Themes/Units/MainMenu.xaml"/>
         <ResourceDictionary Source="/Dev.Main;component/Themes/Units/MenuContent.xaml"/>
         <ResourceDictionary Source="/Dev.Main;component/Themes/Views/MainWindow.xaml"/>
     </ResourceDictionary.MergedDictionaries>
