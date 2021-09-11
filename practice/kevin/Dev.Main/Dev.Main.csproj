@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dev.Data\Dev.Data.csproj" />
+    <ProjectReference Include="..\Dev.DBGen\Dev.DBGen.csproj" />
+    <ProjectReference Include="..\Dev.Foundation\Dev.Foundation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Themes\Units\MenuContent.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\MainMenuItem.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

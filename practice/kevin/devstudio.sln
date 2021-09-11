@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevStudio", "DevStudio\DevStudio.csproj", "{C4CCAB1C-364E-47F2-830C-8B0982F3A2EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3B1A6F53-592D-455E-AAFE-B867BF604541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{99F5B472-65FA-4FF0-93FD-D41ED06B87F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{C4B17C10-4D0E-4B2C-AA05-699CD3E915E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Main", "Dev.Main\Dev.Main.csproj", "{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Based", "Based", "{6174FE7D-9F1B-43B2-B3D0-01126647B342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Data", "Dev.Data\Dev.Data.csproj", "{84F44641-0B72-42A1-8C45-0E04234CDF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Foundation", "Dev.Foundation\Dev.Foundation.csproj", "{E1EFFBD6-0152-4003-9255-2B6DC3213BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.DBGen", "Dev.DBGen\Dev.DBGen.csproj", "{9035858A-106B-4D30-8094-DE58E4932B32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4CCAB1C-364E-47F2-830C-8B0982F3A2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CCAB1C-364E-47F2-830C-8B0982F3A2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CCAB1C-364E-47F2-830C-8B0982F3A2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CCAB1C-364E-47F2-830C-8B0982F3A2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F44641-0B72-42A1-8C45-0E04234CDF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F44641-0B72-42A1-8C45-0E04234CDF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F44641-0B72-42A1-8C45-0E04234CDF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F44641-0B72-42A1-8C45-0E04234CDF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EFFBD6-0152-4003-9255-2B6DC3213BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EFFBD6-0152-4003-9255-2B6DC3213BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EFFBD6-0152-4003-9255-2B6DC3213BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EFFBD6-0152-4003-9255-2B6DC3213BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9035858A-106B-4D30-8094-DE58E4932B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9035858A-106B-4D30-8094-DE58E4932B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9035858A-106B-4D30-8094-DE58E4932B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9035858A-106B-4D30-8094-DE58E4932B32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99F5B472-65FA-4FF0-93FD-D41ED06B87F1} = {3B1A6F53-592D-455E-AAFE-B867BF604541}
+		{C4B17C10-4D0E-4B2C-AA05-699CD3E915E5} = {3B1A6F53-592D-455E-AAFE-B867BF604541}
+		{2266DFB5-5DC5-4CD1-888E-70EC0DA52DDF} = {C4B17C10-4D0E-4B2C-AA05-699CD3E915E5}
+		{84F44641-0B72-42A1-8C45-0E04234CDF49} = {6174FE7D-9F1B-43B2-B3D0-01126647B342}
+		{E1EFFBD6-0152-4003-9255-2B6DC3213BFB} = {6174FE7D-9F1B-43B2-B3D0-01126647B342}
+		{9035858A-106B-4D30-8094-DE58E4932B32} = {6174FE7D-9F1B-43B2-B3D0-01126647B342}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283D108C-CE61-472E-86F1-8BBE7624C586}
+	EndGlobalSection
+EndGlobal
