@@ -3,27 +3,23 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:units="clr-namespace:Ncore.Main.UI.Units">
 
-	<Style TargetType="{x:Type units:MainMenu}">
-		<Setter Property="ItemsSource" Value="{Binding MainMenus}"/>
-        <Setter Property="SelectedItem" Value="{Binding CurrentMainMenu}"/>
-        <Setter Property="Background" Value="#DDDDDD"/>
-		<Setter Property="Foreground" Value="#000000"/>
+    <Style TargetType="{x:Type units:NavContent}">
+        <Setter Property="Background" Value="Transparent"/>
 		<Setter Property="Template">
 			<Setter.Value>
-				<ControlTemplate TargetType="{x:Type units:MainMenu}">
+                <ControlTemplate TargetType="{x:Type units:NavContent}">
 					<Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-						<ItemsPresenter/>
+						<Grid>
+							<Grid.RowDefinitions>
+								<RowDefinition Height="Auto"/>
+								<RowDefinition Height="Auto"/>
+							</Grid.RowDefinitions>
+                            <units:SubTreeMenu/>
+                        </Grid>
 					</Border>
 				</ControlTemplate>
-			</Setter.Value>
-		</Setter>
-		<Setter Property="ItemsPanel">
-			<Setter.Value>
-				<ItemsPanelTemplate>
-					<StackPanel Orientation="Horizontal"/>
-				</ItemsPanelTemplate>
 			</Setter.Value>
 		</Setter>
 	</Style>

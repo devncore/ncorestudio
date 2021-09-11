@@ -1,7 +1,7 @@
 ﻿namespace Ncore.Data.Menus
 {
-	public class MenuModel
-	{
-		public string Name { get; set; }
-	}
+    public class MenuModel
+    {
+        public string Name { get; set; }
+    }
 }

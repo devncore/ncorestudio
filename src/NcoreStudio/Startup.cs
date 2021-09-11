@@ -2,12 +2,12 @@
 
 namespace NcoreStudio
 {
-	class Startup
-	{
-		[STAThread]
-		public static void Main()
-		{
-			_ = new App().Run();
-		}
-	}
+    class Startup
+    {
+        [STAThread]
+        public static void Main()
+        {
+            _ = new App().Run();
+        }
+    }
 }

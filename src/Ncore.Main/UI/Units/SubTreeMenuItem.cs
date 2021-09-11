@@ -3,13 +3,13 @@ using System.Windows.Controls;
 
 namespace Ncore.Main.UI.Units
 {
-    public class MainMenu : ListBox
+    public class SubTreeMenuItem : TreeViewItem
     {
         #region DefaultStyleKey
 
-        static MainMenu()
+        static SubTreeMenuItem()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(MainMenu), new FrameworkPropertyMetadata(typeof(MainMenu)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(SubTreeMenuItem), new FrameworkPropertyMetadata(typeof(SubTreeMenuItem)));
         }
         #endregion
 
@@ -17,7 +17,7 @@ namespace Ncore.Main.UI.Units
 
         protected override DependencyObject GetContainerForItemOverride()
         {
-            return new MainMenuItem();
+            return new SubTreeMenuItem();
         }
         #endregion
     }

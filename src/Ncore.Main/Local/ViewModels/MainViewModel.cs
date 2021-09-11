@@ -5,19 +5,51 @@ using System.Collections.Generic;
 
 namespace Ncore.Main.Local.ViewModels
 {
-	public class MainViewModel : ObservableObject
-	{
-		#region MainMenus
+    public class MainViewModel : ObservableObject
+    {
+        #region Variables
 
-		public List<MenuModel> MainMenus { get; set; }
-		#endregion
+        private List<TreeMenuModel> _subItems;
+        private MenuModel _currentMainMenu;
+        #endregion
 
-		#region Constructor
+        #region MainMenus
 
-		public MainViewModel()
-		{
-			MainMenus = MainMenuGen.GetMainMenus();
-		}
-		#endregion
-	}
+        public List<MenuModel> MainMenus { get; set; }
+        #endregion
+
+        #region CurrentMainMenu
+
+        public MenuModel CurrentMainMenu
+        {
+            get => _currentMainMenu;
+            set { _currentMainMenu = value; OnPropertyChanged(); MainMenuChanged(value); }
+        }
+        #endregion
+
+        #region SubItems
+
+        public List<TreeMenuModel> SubItems
+        {
+            get => _subItems;
+            set { _subItems = value; OnPropertyChanged(); }
+        }
+        #endregion
+
+        #region Constructor
+
+        public MainViewModel()
+        {
+            MainMenus = MainMenuGen.GetMainMenus();
+        }
+        #endregion
+
+        #region MainMenuChanged
+
+        private void MainMenuChanged(MenuModel value)
+        {
+            SubItems = SubItemGen.GetSubMenus(value);
+        }
+        #endregion
+    }
 }

@@ -3,14 +3,14 @@ using System.Windows.Controls;
 
 namespace Ncore.Main.UI.Units
 {
-	public class MainMenuItem : ListBoxItem
-	{
-		#region DefaultStyleKey
+    public class MainMenuItem : ListBoxItem
+    {
+        #region DefaultStyleKey
 
-		static MainMenuItem()
-		{
-			DefaultStyleKeyProperty.OverrideMetadata(typeof(MainMenuItem), new FrameworkPropertyMetadata(typeof(MainMenuItem)));
-		}
-		#endregion
-	}
+        static MainMenuItem()
+        {
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(MainMenuItem), new FrameworkPropertyMetadata(typeof(MainMenuItem)));
+        }
+        #endregion
+    }
 }

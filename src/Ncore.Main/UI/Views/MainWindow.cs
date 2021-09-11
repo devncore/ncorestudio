@@ -2,22 +2,22 @@
 using Ncore.Main.Local.ViewModels;
 namespace Ncore.Main.UI.Views
 {
-	public class MainWindow : Window
-	{
-		#region DefaultStyleKey
+    public class MainWindow : Window
+    {
+        #region DefaultStyleKey
 
-		static MainWindow()
-		{
-			DefaultStyleKeyProperty.OverrideMetadata(typeof(MainWindow), new FrameworkPropertyMetadata(typeof(MainWindow)));
-		}
-		#endregion
+        static MainWindow()
+        {
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(MainWindow), new FrameworkPropertyMetadata(typeof(MainWindow)));
+        }
+        #endregion
 
-		#region Constructor
+        #region Constructor
 
-		public MainWindow()
-		{
-			DataContext = new MainViewModel();
-		}
-		#endregion
-	}
+        public MainWindow()
+        {
+            DataContext = new MainViewModel();
+        }
+        #endregion
+    }
 }

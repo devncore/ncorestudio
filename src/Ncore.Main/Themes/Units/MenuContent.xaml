@@ -4,7 +4,7 @@
     xmlns:units="clr-namespace:Ncore.Main.UI.Units">
 
 	<Style TargetType="{x:Type units:MenuContent}">
-		<Setter Property="Background" Value="#0078d7"/>
+        <Setter Property="Background" Value="#FF583F92"/>
 		<Setter Property="Foreground" Value="#FFFFFF"/>
 		<Setter Property="Template">
 			<Setter.Value>

@@ -1,6 +1,14 @@
-﻿namespace Ncore.Foundation.Mvvm
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+namespace Ncore.Foundation.Mvvm
 {
-	public class ObservableObject
-	{
-	}
+    public class ObservableObject : INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+    }
 }

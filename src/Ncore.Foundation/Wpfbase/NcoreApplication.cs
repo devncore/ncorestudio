@@ -2,7 +2,7 @@
 
 namespace Ncore.Foundation.Wpfbase
 {
-	public class NcoreApplication : Application
-	{
-	}
+    public class NcoreApplication : Application
+    {
+    }
 }
