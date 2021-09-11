@@ -8,8 +8,6 @@ namespace DevStudio
         public static void Main(string [] args)
         {
             _ = new App().Run();
-            Environment.Exit(0);
         }
-
     }
 }
