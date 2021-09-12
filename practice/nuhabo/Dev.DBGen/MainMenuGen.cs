@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Dev.DBGen
 {
-    public class MenuGen
+    public class MainMenuGen
     {
-        public static List<MenuModel> GetMenus()
+        public static List<MenuModel> GetMainMenus()
         {
             var source = new List<MenuModel>();
             source.Add(new MenuModel { Name = "Home" });
