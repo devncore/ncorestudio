@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Ncore.Data\Ncore.Data.csproj" />
     <ProjectReference Include="..\Ncore.DBGen\Ncore.DBGen.csproj" />
     <ProjectReference Include="..\Ncore.Foundation\Ncore.Foundation.csproj" />
+    <ProjectReference Include="..\Ncore.LayoutSupport\Ncore.LayoutSupport.csproj" />
   </ItemGroup>
 
   <ItemGroup>

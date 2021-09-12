@@ -82,6 +82,8 @@ namespace Ncore.Controls.Primitives
 				case GeoIcon.ChevronDown: icon.Data = IconData.CHEVRON_DOWN.ToGeometry(); break;
 				case GeoIcon.ChevronRight: icon.Data = IconData.CHEVRON_RIGHT.ToGeometry(); break;
 				case GeoIcon.Unfold: icon.Data = IconData.UNFOLD.ToGeometry(); break;
+				case GeoIcon.Folder: icon.Data = IconData.FOLDER.ToGeometry(); break;
+				case GeoIcon.FolderOpen: icon.Data = IconData.FOLDER_OPEN.ToGeometry(); break;
 
 				case GeoIcon.None:
 					break;

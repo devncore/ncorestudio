@@ -52,6 +52,8 @@
 		ChevronUp,
 		ChevronDown,
 		ChevronRight,
-		Unfold
+		Unfold,
+		Folder,
+		FolderOpen,
 	}
 }
