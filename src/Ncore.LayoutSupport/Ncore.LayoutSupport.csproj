@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Themes\Styles\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Ncore.Controls\Ncore.Controls.csproj" />
   </ItemGroup>
 
