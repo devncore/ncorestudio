@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ncore.Controls.Utils
+﻿namespace Ncore.Controls.Utils
 {
-	internal static class IconData
+    internal static class IconData
 	{
 		internal static readonly string LABEL = "M16.540789,9.5129013E-05 L16.540789,0.019199848 16.551642,0.0083463192 20.144328,4.9928575 16.551037,9.978035 16.54089,9.9678879 16.54089,9.9752855 3.6029096,9.9856553 3.6029112,9.9665513 3.5920568,9.9774055 0,4.9935226 3.5933933,0.0084471703 3.6035385,0.018592358 3.6035388,0.011195183 z";
 		internal static readonly string ALARM = "M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21";
