@@ -13,7 +13,12 @@
                             <RowDefinition Height="Auto"/>
                             <RowDefinition/>
                         </Grid.RowDefinitions>
-                        <units:MenuContent/>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <units:MenuContent Grid.ColumnSpan="2"/>
+                        <units:NavContent Grid.Row="1"/>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
