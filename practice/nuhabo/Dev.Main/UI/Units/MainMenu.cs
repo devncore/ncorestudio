@@ -13,7 +13,6 @@ namespace Dev.Main.UI.Units
         }
         #endregion
 
-
         #region GetContainerForItemOverride
 
         protected override DependencyObject GetContainerForItemOverride()
@@ -21,6 +20,5 @@ namespace Dev.Main.UI.Units
             return new MainMenuItem();
         }
         #endregion
-
     }
 }

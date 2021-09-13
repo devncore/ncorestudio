@@ -28,8 +28,6 @@ namespace Dev.DBGen
                 source[3].ChildItems = new List<TreeMenuModel>();
                 source[3].ChildItems.Add(new TreeMenuModel { Name = "main" });
                 source[3].ChildItems.Add(new TreeMenuModel { Name = "sub" });
-
-
             }
             else
             {

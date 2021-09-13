@@ -3,8 +3,6 @@ using System.Windows.Controls;
 
 namespace Dev.Main.UI.Units
 {
-    
-
     public class SubTreeMenuItem : TreeViewItem
     {
         #region DefaultStyleKey
@@ -23,7 +21,4 @@ namespace Dev.Main.UI.Units
         }
         #endregion
     }
-
-
-
 }
