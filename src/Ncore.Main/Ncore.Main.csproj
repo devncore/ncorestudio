@@ -11,6 +11,7 @@
     <ProjectReference Include="..\Ncore.DBGen\Ncore.DBGen.csproj" />
     <ProjectReference Include="..\Ncore.Foundation\Ncore.Foundation.csproj" />
     <ProjectReference Include="..\Ncore.LayoutSupport\Ncore.LayoutSupport.csproj" />
+    <ProjectReference Include="..\Ncore.Resources\Ncore.Resources.csproj" />
   </ItemGroup>
 
   <ItemGroup>
