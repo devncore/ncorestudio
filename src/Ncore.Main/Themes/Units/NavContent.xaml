@@ -4,21 +4,28 @@
     xmlns:units="clr-namespace:Ncore.Main.UI.Units">
 
     <Style TargetType="{x:Type units:NavContent}">
-        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Width" Value="280"/>
+        <Setter Property="UseLayoutRounding" Value="True"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Background" Value="#252525"/>
 		<Setter Property="Template">
 			<Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:NavContent}">
-					<Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}">
-						<Grid>
-							<Grid.RowDefinitions>
-								<RowDefinition Height="Auto"/>
-								<RowDefinition Height="Auto"/>
-							</Grid.RowDefinitions>
-                            <units:SubTreeMenu/>
-                        </Grid>
-					</Border>
+                    <Grid>
+                        <Image Source="/Ncore.Resources;component/Images/wallpaper.jpg"
+                               Stretch="UniformToFill"/>
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <units:SubTreeMenu/>
+                            </Grid>
+                        </Border>
+                    </Grid>
 				</ControlTemplate>
 			</Setter.Value>
 		</Setter>

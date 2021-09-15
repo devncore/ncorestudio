@@ -23,27 +23,31 @@
             </Setter.Value>
         </Setter>
     </Style>
-    
+
     <Style TargetType="{x:Type units:SubTreeMenuItem}">
+        <Setter Property="UseLayoutRounding" Value="True"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Background" Value="#252525"/>
         <Setter Property="ItemsSource" Value="{Binding ChildItems}"/>
+        <Setter Property="Foreground" Value="#FFFFFF"/>
         <Setter Property="Template">
 			<Setter.Value>
                 <ControlTemplate TargetType="{x:Type units:SubTreeMenuItem}">
 					<Border Background="{TemplateBinding Background}">
                         <StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <ToggleButton  x:Name="expand"
-										       IsChecked="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=IsExpanded}"
-											   Foreground="{TemplateBinding Foreground}"
-											   Style="{StaticResource EXPANDER}"
-                                               VerticalAlignment="Center"/>
+                                <ToggleButton x:Name="expand"
+										      IsChecked="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=IsExpanded}"
+											  Foreground="{TemplateBinding Foreground}"
+											  Style="{StaticResource EXPANDER}"
+                                              VerticalAlignment="Center"/>
                                 <ctrls:NcoreIcon x:Name="icon" 
-													Grid.Column="1"
-													Width="16" Height="16" 
-													Margin="4 2 4 2" 
-                                                    IconType="Folder"
-													Fill="#EFB13A"
-                                                    VerticalAlignment="Center"/>
+												 Grid.Column="1"
+												 Width="16" Height="16" 
+												 Margin="4 2 4 2" 
+                                                 IconType="Folder"
+												 Fill="#EFB13A"
+                                                 VerticalAlignment="Center"/>
                                 <TextBlock Text="{Binding Name}" Margin="15 10 15 10" VerticalAlignment="Center"/>
                             </StackPanel>
                             <ItemsPresenter x:Name="items" Visibility="Collapsed"/>
@@ -52,8 +56,8 @@
 					</Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="#AA583F92"/>
-                            <Setter Property="Foreground" Value="#FFFFFF"/>
+                            <Setter Property="Background" Value="#FFFFFF"/>
+                            <Setter Property="Foreground" Value="#000000"/>
                         </Trigger>
                         <Trigger Property="IsExpanded" Value="True">
                             <Setter TargetName="items" Property="Visibility" Value="Visible"/>

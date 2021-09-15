@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.DBGen", "Ncore.DBGen\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implement", "Implement", "{3D9F325F-8199-4FB9-8EA8-0848DE826F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.LayoutSupport", "Ncore.LayoutSupport\Ncore.LayoutSupport.csproj", "{D13C8F3C-A11A-45F4-8110-4848F132AE35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.LayoutSupport", "Ncore.LayoutSupport\Ncore.LayoutSupport.csproj", "{D13C8F3C-A11A-45F4-8110-4848F132AE35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.Controls", "Ncore.Controls\Ncore.Controls.csproj", "{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ncore.Controls", "Ncore.Controls\Ncore.Controls.csproj", "{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ncore.Resources", "Ncore.Resources\Ncore.Resources.csproj", "{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{3D9F325F-8199-4FB9-8EA8-0848DE826F13} = {232FE246-0A9C-4F04-AE11-FCF677BE30DE}
 		{D13C8F3C-A11A-45F4-8110-4848F132AE35} = {3D9F325F-8199-4FB9-8EA8-0848DE826F13}
 		{4E5B7FB7-FCA5-4853-82D9-AA2A73D2822F} = {3D9F325F-8199-4FB9-8EA8-0848DE826F13}
+		{8A7F08F6-D6DF-4C4A-82AC-A7CE61F586C5} = {3D9F325F-8199-4FB9-8EA8-0848DE826F13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5195FBA0-AF9A-42E8-933B-9CE1B76EA470}
