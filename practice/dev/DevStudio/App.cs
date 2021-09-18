@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dev.Main.UI.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace DevStudio
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            
+            _ = new MainWindow().ShowDialog();
             Environment.Exit(0);
         }
 

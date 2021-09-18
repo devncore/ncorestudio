@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dev.Main\Dev.Main.csproj" />
+  </ItemGroup>
+
 </Project>
