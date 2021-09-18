@@ -1,4 +1,5 @@
-﻿using Dev.Main.UI.Views;
+﻿using Dev.Foundation.Wpfbase;
+using Dev.Main.UI.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Windows;
 
 namespace DevStudio
 {
-    public class App : Application
+    public class App : DevApplication
     {
         protected override void OnStartup(StartupEventArgs e)
         {
