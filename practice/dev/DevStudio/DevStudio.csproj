@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dev.Foundation\Dev.Foundation.csproj" />
     <ProjectReference Include="..\Dev.Main\Dev.Main.csproj" />
   </ItemGroup>
 
